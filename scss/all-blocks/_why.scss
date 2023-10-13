@@ -1,0 +1,85 @@
+.why {
+    margin-top: 400px;
+
+    .container {
+        background: url(../../img/Mask.png) no-repeat;
+        width: 1280px;
+        height: 577px;
+    }
+}
+
+.why__heading {
+    margin: 0;
+    padding: 0;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; 
+}
+
+.why__text {
+    margin: 0;
+    padding: 0;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 540px;
+    opacity: 0.8;
+    margin-left: 370px;
+    padding-top: 32px;
+}
+
+.why__list {
+    display: flex;
+    margin-top: 86px;
+}
+
+.why__item {
+    border-radius: 8px;
+    background: #0E8784;
+    width: 350px;
+    height: 382px;
+    margin-left: 30px;
+}
+
+.why__img {
+    margin-top: 72px;
+    margin-left: 137px;
+}
+
+.why__title {
+    margin: 0;
+    padding: 0;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; 
+    width: 255px;
+    padding-top: 56px;
+    margin-left: 47px;
+}
+
+.why__textt {
+    margin: 0;
+    padding: 0;
+    width: 255px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-left: 47px;
+    margin-top: 24px;
+}

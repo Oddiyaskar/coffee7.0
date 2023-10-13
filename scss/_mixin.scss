@@ -1,0 +1,43 @@
+@mixin Flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin Link {
+    color: var(--color-Grey);
+    font-family: "Barlow";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+
+    &:hover {
+        color: #333D4B;
+    }
+}
+
+@mixin btn {
+    color: var(--color-LightCream);
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; 
+    border-radius: 6px;
+    background-color: var(--color-DarkCyan);
+    width: 100%;
+    max-width: 217px;
+    padding: 16px 31px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+    border: 1px solid var(--color-DarkCyan);
+
+    &:hover {
+        background: #66D2CF;
+        border: 1px solid #66D2CF;
+    }
+}
