@@ -2,7 +2,7 @@
     margin-top: 136px;
 
     .container {
-        background-image: url(../../img/our.png);
+        background-image: url(../img/our.png);
         background-repeat: no-repeat;
         background-size: cover;
         max-width: 1111px;
@@ -58,7 +58,7 @@
 
 @media only screen and (max-width: 400px) {
     .about .container {
-        background-image: url(../../img/our.png);
+        background-image: url(../img/our.png);
         background-repeat: no-repeat;
         height: 600px;
     }

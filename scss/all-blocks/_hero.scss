@@ -2,7 +2,7 @@
     margin-top: 45px;
 
     .container {
-        background: url("../../img/Bitmap.png") no-repeat;
+        background: url("../img/Bitmap.png") no-repeat;
         max-width: 1280px;
         width: 100%;
         height: 600px;
@@ -74,7 +74,7 @@
 
 @media only screen and (max-width: 400px) {
     .hero .container {
-        background-image: url(../../img/Bitmap.png);
+        background-image: url(../img/Bitmap.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
